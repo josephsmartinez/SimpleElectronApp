@@ -1,0 +1,25 @@
+{
+  "name": "simpleelectronapp",
+  "version": "1.0.0",
+  "description": "A simple electron application for learning",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "nodemon --exec electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephsmartinez/SimpleElectronApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephsmartinez/SimpleElectronApp/issues"
+  },
+  "homepage": "https://github.com/josephsmartinez/SimpleElectronApp#readme",
+  "devDependencies": {
+    "electron": "^11.1.1",
+    "electron-window-state": "^5.0.3",
+    "nodemon": "^2.0.6"
+  }
+}
